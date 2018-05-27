@@ -1,0 +1,54 @@
+
+#chat-block
+  min-height: calc(100vh - 45px)
+  margin-bottom: 60px
+  .message
+    padding: 10px 0
+    .img-block
+      display: inline-block
+      margin: 5px 0
+      height: 40px
+      width: 40px
+      border-radius: 50%
+      background-position: center
+      background-size: cover
+    .text-block
+      display: inline-block
+      padding: 0 10px
+      .user-text
+        display: inline-block
+        .user-name
+          font-size: 15px
+          color: #1f91e1
+          font-weight: 700
+        .user-message-text
+#send-block
+  background-color: #ffffff
+  position: fixed
+  bottom: 0
+  width: 100%
+  padding: 5px 0
+  border-top: 1px solid #e3e3e3
+  #message-block
+    display: inline-block
+    #message
+      padding: 5px
+      border: none
+      width: 100%
+      &:focus
+        box-shadow: none
+        outline: none
+  #send-btn
+    cursor: pointer
+    background-color: transparent
+    border: none
+    font-size: 20px
+    color: #1f91e1
+    transition: all 0.3s
+    &:hover
+      color: #10476d
+    &:focus
+      outline: none
+
+
+

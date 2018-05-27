@@ -1,0 +1,50 @@
+#chat-block {
+  min-height: calc(100vh - 45px);
+  margin-bottom: 60px; }
+  #chat-block .message {
+    padding: 10px 0; }
+    #chat-block .message .img-block {
+      display: inline-block;
+      margin: 5px 0;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      background-position: center;
+      background-size: cover; }
+    #chat-block .message .text-block {
+      display: inline-block;
+      padding: 0 10px; }
+      #chat-block .message .text-block .user-text {
+        display: inline-block; }
+        #chat-block .message .text-block .user-text .user-name {
+          font-size: 15px;
+          color: #1f91e1;
+          font-weight: 700; }
+
+#send-block {
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  border-top: 1px solid #e3e3e3; }
+  #send-block #message-block {
+    display: inline-block; }
+    #send-block #message-block #message {
+      padding: 5px;
+      border: none;
+      width: 100%; }
+      #send-block #message-block #message:focus {
+        box-shadow: none;
+        outline: none; }
+  #send-block #send-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    color: #1f91e1;
+    transition: all 0.3s; }
+    #send-block #send-btn:hover {
+      color: #10476d; }
+    #send-block #send-btn:focus {
+      outline: none; }
